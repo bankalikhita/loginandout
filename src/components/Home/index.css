@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+}
+.box {
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+}
+.btn {
+  border-style: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 100px;
+  background-color: #f8fafc;
+  color: #303150;
+}
